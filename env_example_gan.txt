@@ -1,0 +1,15 @@
+# train_gesture_model.py
+
+DATASET_DIR=./isl_processed_dataset
+CHECKPOINT_DIR=./checkpoints
+LOG_DIR=./logs
+BATCH_SIZE=8
+EPOCHS=10
+EMBEDDING_DIM=64
+
+#test_model.py variables
+
+GENERATOR_PATH=sign_language_word_generator.h5
+ENCODER_PATH=word_label_encoder.pkl
+OUTPUT_DIR=generated_videos
+GIF_FPS=5

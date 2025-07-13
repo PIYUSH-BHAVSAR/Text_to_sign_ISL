@@ -1,0 +1,27 @@
+# Core Libraries
+numpy==1.23.5
+scipy==1.10.1
+matplotlib==3.7.1
+
+# Machine Learning
+tensorflow==2.9.1
+scikit-learn==1.2.2
+
+# Sentence Embedding
+sentence-transformers==2.2.2
+transformers==4.28.1
+torch==1.13.1
+tokenizers==0.13.3
+
+# Media & Video
+opencv-python==4.7.0.72
+mediapipe==0.10.0
+
+# Utility & Performance
+tqdm==4.65.0
+psutil==5.9.5
+python-dotenv==1.0.0
+
+# For Jupyter/Colab (Optional but Recommended for Testing)
+ipython==8.12.2
+jupyter==1.0.0

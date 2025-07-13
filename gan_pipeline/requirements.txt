@@ -1,0 +1,27 @@
+# === Core ML & Deep Learning ===
+tensorflow==2.9.1
+numpy==1.23.5
+scikit-learn==1.1.3
+
+# === Video Processing & File I/O ===
+opencv-python==4.7.0.72
+imageio==2.26.1
+matplotlib==3.7.1
+
+# === NLP (Only if used in inference) ===
+sentence-transformers==2.2.2
+
+# === Gesture Detection & Preprocessing ===
+mediapipe==0.10.0  # Required for landmark/keypoint detection
+
+# === Utilities ===
+tqdm==4.65.0
+python-dotenv==1.0.0
+pickle-mixin==1.0.2
+
+# === Multiprocessing and OS operations (standard libraries, no install needed)
+# multiprocessing
+# os
+# time
+# signal
+# sys
